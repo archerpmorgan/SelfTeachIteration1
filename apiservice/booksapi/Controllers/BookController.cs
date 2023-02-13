@@ -30,8 +30,8 @@ namespace booksapi.Controllers
             return bookList;
         }
 
-        [HttpGet("seeddevdata")]
-        public List<Book> SeedDevData(BookContext dbcontext)
+        [HttpGet("librarybooks")]
+        public List<Book> GetAllLibraryBooks(BookContext dbcontext)
         {
 
             //make database query to library database and send
@@ -39,7 +39,7 @@ namespace booksapi.Controllers
 
 
 
-            
+
 
             // var bookList = new List<Book>(){
             //     new Book() {
@@ -55,7 +55,7 @@ namespace booksapi.Controllers
             //     },
             // };
 
-            return bookList;
+            return null;
         }
     }
 }

@@ -13,5 +13,9 @@ namespace booksapi.Models
         public int problemCount { get; set; }
 
         public int bookID { get; set; }
+
+
+        //Not in storage
+        public List<Section>? problems { get; set; }
     }
 }

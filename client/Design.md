@@ -24,7 +24,7 @@ Colors:
 
 Color pallete https://coolors.co/1c77c3-eef7fc-40bcd8-f39237-d63230 
 plain background: EEF7FC
-persian red: EEF7FC
+persian red: D63230
 carot orange: F39237
 aero (light blue): 40BCD8
 french blue (darker blue) 1C77C3
